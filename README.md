@@ -94,8 +94,9 @@ E-Commerce/
 The application features a comprehensive product catalog with **130 products** across **multiple categories**:
 
 ### **Product Categories**
+
 - **Electronics** (12 products) - Smartphones, laptops, TVs, accessories
-- **Clothing** (10 products) - T-shirts, jackets, shoes, handbags  
+- **Clothing** (10 products) - T-shirts, jackets, shoes, handbags
 - **Sports** (9 products) - Fitness equipment, sports gear
 - **Home** (10 products) - Appliances, smart home devices
 - **Books** (8 products) - Educational and entertainment books
@@ -103,8 +104,9 @@ The application features a comprehensive product catalog with **130 products** a
 - **Toys** (8 products) - Games, educational toys, electronics
 
 ### **Price Range**
+
 - **Budget**: $14.99 - $49.99
-- **Mid-Range**: $50.00 - $299.99  
+- **Mid-Range**: $50.00 - $299.99
 - **Premium**: $300.00 - $1,299.99
 
 ## Environment Variables
@@ -128,16 +130,19 @@ UPLOAD_PATH=./uploads
 ### **Quick Production Setup**
 
 1. **Navigate to dist folder**:
+
    ```bash
    cd dist
    ```
 
 2. **Install production dependencies**:
+
    ```bash
    npm install
    ```
 
 3. **Start production server**:
+
    ```bash
    node server.js
    ```
@@ -145,6 +150,7 @@ UPLOAD_PATH=./uploads
 4. **Access your application**: http://localhost:5000
 
 ### **Production Features**
+
 - ✅ **Optimized Build** - Minified and compressed assets
 - ✅ **Security Headers** - Helmet.js protection
 - ✅ **Rate Limiting** - DDoS protection

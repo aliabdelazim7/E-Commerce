@@ -11,11 +11,12 @@ Your complete E-Commerce application includes:
 ✅ **User Authentication** system  
 ✅ **Shopping Cart** functionality  
 ✅ **Order Processing** system  
-✅ **Production-ready dist folder**  
+✅ **Production-ready dist folder**
 
 ## 🌐 **Method 1: Upload to GitHub (Recommended)**
 
 ### **Step 1: Create GitHub Repository**
+
 1. Go to [GitHub.com](https://github.com)
 2. Click "New Repository"
 3. Name it: `e-commerce-app` or `simple-ecommerce`
@@ -23,6 +24,7 @@ Your complete E-Commerce application includes:
 5. **Don't** initialize with README (we already have one)
 
 ### **Step 2: Connect Local Repository to GitHub**
+
 ```bash
 # Add GitHub repository as remote origin
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
@@ -33,6 +35,7 @@ git push -u origin main
 ```
 
 ### **Step 3: Verify Upload**
+
 - Check your GitHub repository
 - You should see all files including:
   - `server/ecommerce.db` (130 products)
@@ -42,20 +45,23 @@ git push -u origin main
 ## 📁 **Method 2: Upload as ZIP File**
 
 ### **Step 1: Create ZIP Archive**
+
 ```bash
 # In PowerShell, create ZIP file
 Compress-Archive -Path "C:\VSCODE\Simple Ecommerce\*" -DestinationPath "E-Commerce-Complete.zip"
 ```
 
 ### **Step 2: Upload to Cloud Storage**
+
 - **Google Drive**: Upload ZIP file
-- **Dropbox**: Upload ZIP file  
+- **Dropbox**: Upload ZIP file
 - **OneDrive**: Upload ZIP file
 - **WeTransfer**: Send ZIP file
 
 ## 🖥️ **Method 3: Deploy to Cloud Platforms**
 
 ### **Heroku Deployment**
+
 ```bash
 # Install Heroku CLI
 # Create Procfile
@@ -67,6 +73,7 @@ git push heroku main
 ```
 
 ### **Vercel Deployment**
+
 ```bash
 # Install Vercel CLI
 npm i -g vercel
@@ -76,6 +83,7 @@ vercel --prod
 ```
 
 ### **Netlify Deployment**
+
 ```bash
 # Install Netlify CLI
 npm i -g netlify-cli
@@ -87,10 +95,12 @@ netlify deploy --prod --dir=dist
 ## 🗄️ **Database Information**
 
 ### **SQLite Database Files Included:**
+
 - `server/ecommerce.db` - Development database
 - `dist/server/ecommerce.db` - Production database
 
 ### **Database Contents:**
+
 - **130 Products** across categories:
   - Electronics (12 products)
   - Clothing (10 products)
@@ -123,6 +133,7 @@ Simple Ecommerce/
 ## 🚀 **Quick Deployment Instructions**
 
 ### **For Recipients:**
+
 1. **Download/Clone** the project
 2. **Navigate to dist folder**: `cd dist`
 3. **Install dependencies**: `npm install`
@@ -130,6 +141,7 @@ Simple Ecommerce/
 5. **Access application**: http://localhost:5000
 
 ### **Features Available:**
+
 - ✅ Browse 130 products
 - ✅ Add items to cart
 - ✅ User registration/login
@@ -147,6 +159,7 @@ Simple Ecommerce/
 ## 📞 **Support**
 
 If you need help with deployment:
+
 1. Check `DEPLOYMENT_GUIDE.md`
 2. Review `API_DOCUMENTATION.md`
 3. Test with `node dist/server.js`

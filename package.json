@@ -10,7 +10,8 @@
     "build": "cd client && npm run build",
     "install-all": "npm install && cd client && npm install",
     "test": "node test-api.js",
-    "start": "node server/index.js",
+    "start": "node dist/server.js",
+    "heroku-postbuild": "npm run build",
     "lint": "eslint server/ --ext .js",
     "lint:fix": "eslint server/ --ext .js --fix"
   },
