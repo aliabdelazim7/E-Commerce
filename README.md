@@ -109,24 +109,6 @@ The application features a comprehensive product catalog with **130 products** a
 - **Mid-Range**: $50.00 - $299.99
 - **Premium**: $300.00 - $1,299.99
 
-## Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-PORT=5000
-NODE_ENV=development
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
-JWT_EXPIRES_IN=24h
-DB_PATH=ecommerce.db
-CORS_ORIGIN=http://localhost:3000
-BCRYPT_ROUNDS=12
-MAX_FILE_SIZE=5242880
-UPLOAD_PATH=./uploads
-```
-
-## Production Deployment
-
 ### **Quick Production Setup**
 
 1. **Navigate to dist folder**:
@@ -157,13 +139,6 @@ UPLOAD_PATH=./uploads
 - ✅ **Error Handling** - Comprehensive error management
 - ✅ **Database** - Pre-populated with 130 products
 
-## Documentation
-
-- **[API Documentation](API_DOCUMENTATION.md)**: Complete API reference
-- **[Deployment Guide](DEPLOYMENT_GUIDE.md)**: Detailed production deployment instructions
-- **[Upload Guide](UPLOAD_GUIDE.md)**: Complete upload and deployment guide
-- **[Final Project Review](FINAL_PROJECT_REVIEW.md)**: Complete project overview and handover guide
-
 ## Future Enhancements
 
 - [ ] Payment gateway integration (Stripe, PayPal)
@@ -175,28 +150,5 @@ UPLOAD_PATH=./uploads
 - [ ] Advanced analytics and reporting
 - [ ] Mobile app development
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you have any questions or need help with the project, please:
-
-1. Check the [Documentation](DEPLOYMENT_GUIDE.md)
-2. Review the [API Documentation](API_DOCUMENTATION.md)
-3. Open an issue on GitHub
-
----
-
 **Built with ❤️ using React, Node.js, Express, and SQLite**
 
-**Repository**: [https://github.com/aliabdelazim7/E-Commerce.git](https://github.com/aliabdelazim7/E-Commerce.git)
