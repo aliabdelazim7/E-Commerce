@@ -1,4 +1,5 @@
 # E-Commerce - Professional Full Stack Application
+### Live Demo: https://simple-ecommerce-task45.netlify.app/
 
 A professional, full-stack ecommerce application built with React, Node.js, Express, and SQLite. This application provides a complete shopping experience with user authentication, product management, shopping cart, and order processing. **Ready for production deployment!**
 
